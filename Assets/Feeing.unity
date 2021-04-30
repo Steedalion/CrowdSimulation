@@ -236,6 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &50949026
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -606,6 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &109882770 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: 56b0baa3aaae042b6aff80aa8e7cc807,
@@ -630,6 +634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &109882775
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1927,6 +1933,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &472842939
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2174,6 +2182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &503224553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,6 +2724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!95 &570165418
 Animator:
   serializedVersion: 3
@@ -2757,6 +2769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &570384667
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2939,6 +2953,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &596238759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3207,6 +3223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &666033341
 GameObject:
   m_ObjectHideFlags: 0
@@ -3280,6 +3298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!4 &677868389 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 99bbb97e7b9c34ae6bd8c3fc34dbc6f0,
@@ -3364,6 +3384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1001 &705342962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3655,6 +3677,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &775829233
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,6 +4267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &861950798
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4396,7 +4422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880903145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.7, y: 0.5, z: -30.6}
+  m_LocalPosition: {x: 70, y: 0.5, z: -30.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4757,7 +4783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029269049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.4, y: 0.5, z: -12.2}
+  m_LocalPosition: {x: 40, y: 0.5, z: -12.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5044,6 +5070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1139235027
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5539,7 +5567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253097463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.7, y: 0.5, z: -12.2}
+  m_LocalPosition: {x: 60, y: 0.5, z: -12.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5635,6 +5663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1292186222
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6283,6 +6313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1001 &1423706740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6374,6 +6406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1001 &1428480878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6665,6 +6699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1480988230
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6739,6 +6775,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &1541482990
 GameObject:
   m_ObjectHideFlags: 0
@@ -6895,99 +6933,6 @@ Transform:
   - {fileID: 489957299}
   m_Father: {fileID: 1863641889}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1586671850
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1586671854}
-  - component: {fileID: 1586671853}
-  - component: {fileID: 1586671852}
-  - component: {fileID: 1586671851}
-  m_Layer: 0
-  m_Name: Bomb
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &1586671851
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586671850}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1586671852
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586671850}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: fdfd5265cf96ca94f9d2ead061bf8e55, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1586671853
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586671850}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1586671854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586671850}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.76294, y: 1.0103569, z: -19.95}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1588863378
 GameObject:
@@ -8970,6 +8915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1001 &1644476393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9329,6 +9276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1717995042
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9521,6 +9470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1761864131
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9593,6 +9544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1799397522
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9698,6 +9651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &1814361666
 GameObject:
   m_ObjectHideFlags: 0
@@ -9786,6 +9741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1869345784
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9886,7 +9843,7 @@ GameObject:
   - component: {fileID: 1887056093}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: GameController
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9911,7 +9868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e48ebe91eb5368e44aa4e368b715c90e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 34851931021288214, guid: 01cbb04dd8dbd7444bcd819287b98317, type: 3}
 --- !u!124 &1887056094
 Behaviour:
   m_ObjectHideFlags: 0
@@ -10235,7 +10192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964456703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.4, y: 0.5, z: -30.6}
+  m_LocalPosition: {x: 50, y: 0.5, z: -30.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10281,6 +10238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!4 &1968327011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 56b0baa3aaae042b6aff80aa8e7cc807,
@@ -10311,6 +10270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1976700459
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10351,6 +10312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &1997687431
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10548,6 +10511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!195 &2038871527
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11006,6 +10971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725422ab73693430eae1f78702298af4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goalLocations: []
+  currentGoal: {x: 0, y: 0, z: 0}
 --- !u!1 &2121760022
 GameObject:
   m_ObjectHideFlags: 0
