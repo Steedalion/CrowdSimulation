@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
 
-public class GoTo : MonoBehaviour
+public class SimpleGoToAI : MonoBehaviour, IGoTo
 {
     public Transform destination;
     private NavMeshAgent agent;
@@ -9,7 +9,11 @@ public class GoTo : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        agent.SetDestination(destination.position);
+        GoToDestination();
     }
 
+    public void GoToDestination()
+    {
+        agent.SetDestination(destination.position);
+    }
 }
