@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class AIControl : MonoBehaviour, IGoTo, IFlee
 {
     public GameObject[] goalLocations;
-public        Vector3 currentGoal;
+    public Vector3 currentGoal;
 
     NavMeshAgent agent;
     Animator anim;
@@ -12,6 +12,7 @@ public        Vector3 currentGoal;
     private float fleeRadius = 10;
     private static readonly int IsRunning = Animator.StringToHash("isRunning");
     private float detectionRadius = 5;
+    private static readonly int Speed = Animator.StringToHash("speed");
 
 
     // Use this for initialization
@@ -20,6 +21,8 @@ public        Vector3 currentGoal;
         goalLocations = GameObject.FindGameObjectsWithTag("goal");
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+
+        Walk();
         GoToDestination();
     }
 
@@ -36,7 +39,7 @@ public        Vector3 currentGoal;
     {
         currentGoal = goalLocations[Random.Range(0, goalLocations.Length)].transform.position;
         agent.SetDestination(currentGoal);
-        Debug.Log( "Going to"+currentGoal);
+        Debug.Log("Going to" + currentGoal);
     }
 
     public void DetectDanger(Vector3 dangerPosition)
@@ -67,19 +70,17 @@ public        Vector3 currentGoal;
 
     private void RunTo(Vector3 validGoal)
     {
-        float runSpeed = 5;
+        float runSpeed = 4;
         float runTurnSpeed = 999;
-        anim.SetTrigger(IsRunning);
-        anim.speed = runSpeed;
+        anim.SetFloat(Speed, runSpeed);
         agent.angularSpeed = runTurnSpeed;
     }
 
     private void Walk()
     {
-        float walkSpeed = 2;
-        float walkTurnSpeed = 12;
-        anim.SetTrigger(IsWalking);
-        anim.speed = walkSpeed;
+        float walkSpeed = 0.8f;
+        float walkTurnSpeed = 200;
+        anim.SetFloat(Speed, walkSpeed);
         agent.angularSpeed = walkTurnSpeed;
     }
 }
